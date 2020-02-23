@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Capsule</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Time Capsule</h1>
+        </header>
+        <section>
+            <form>
+                <html labelFor='title'>Title</html>
+                <input name='title' id='title' type='text' placeholder='All my secrets'/>
+                <html labelFor='content'>Content</html>
+                <input name='content' id='content' type='text' placeholder='I dont have any'/>
+                <html labelFor='imagelink'>Link To Image</html>
+                <input name='imagelink' id='imagelink' type='url'/>
+                <html labelFor='time'>Amount of Time</html>
+                <select id='time'>
+                    <option value='oneminute'>One minute</option>
+                    <option value='onehour'>One hour</option>
+                    <option value='fourhours'>Four hours</option>
+                    <option value='eighthours'>Eight hours</option>
+                    <option value='oneday'>One day</option>
+                    <option value='threedays'>Three days</option>
+                    <option value='oneweek'>One week</option>
+                    <option value='fourweeks'>Four weeks</option>
+                    <option value='halfayear'>Half a year</option>
+                    <option value='oneyear'>One year</option>
+                    <option value='twoyears'>Two years</option>
+                    <option value='fiveyears'>Five years</option>
+                </select>
+                <button id='submit'>Submit</button>
+                <button id='submit'>Discard</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
